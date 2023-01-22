@@ -2,7 +2,8 @@
 
 # Replace these with your own values
 auth_email="trew.rad@gmail.com"
-auth_key="20bb5218cea539c028777f2984db6b6113aa2"
+
+auth_key=$(<"test/auth_key.txt") 
 zone_id="b4efc0334f3e0a2857917a7b5c456285"
 record_id="5f99e383711a371e04e2881f9bc23616"
 
